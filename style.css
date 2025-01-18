@@ -1,0 +1,13 @@
+p {
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    background-color: aqua;
+}
+
+main p {
+    background-color: blue;
+}
