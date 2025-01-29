@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    /* font-family: roboto; */
+    /* display: grid;
+    grid-template: 1fr, 1fr, 1fr;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-areas:
+    ". header ."
+    ". main ."
+    ". main1 ."
+    ". main2 ."
+    ". footer .";
+    background-color: #4c8ec1; */
+
+    padding-left: 30%;
+    padding-right: 30%;
+    /* background-color: #4c8ec1; */
+    background-color: #5ca1d2;
+}
+
+header {
+    /* grid-area: header; */
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    font-family: roboto;
+}
+
+/* main {
+    grid-area: main;
+} */
+
+#main-quote {
+    color: white;
+    text-align: center;
+    font-size: 1em;
+}
+
+#steps {
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: left;
+}
+
+#main-quote-name {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#main-img img {
+    /* grid-area: main1; */
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#second-quote {
+    grid-area: main2;
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    /* font-family: sans-serif; */
+}
+
+footer {
+    grid-area: footer;
+    text-align: center;
+    font-weight: bold;
+}

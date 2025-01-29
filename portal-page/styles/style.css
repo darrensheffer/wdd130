@@ -4,10 +4,12 @@ p {
     font-weight: bold;
 }
 
-main {
+body {
     background-color: aqua;
 }
 
-main p {
-    background-color: blue;
+header {
+    background-color: lightblue;
+    color: black;
+    font-size: 20px;
 }
