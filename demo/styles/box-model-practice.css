@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: steelblue;
+    padding: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font: 1.5em;
+    padding: 25px;
+}
+
+nav a:hover {
+    color: steelblue;
+    background-color: white;
+}
+
+
+img {
+    border:  10px black solid;
+    width: 100%;
+    border-radius: 100%;
+    display:block;
+    margin: 0 auto;
+}
+
+main h1 {
+    margin: 50px 0;
+    padding: 20px;
+    background-color: aliceblue;
+    text-align: center;
+}
+
+main p {
+    padding: 25px;
+}
+
+footer {
+    background-color: steelblue;
+    padding: 25px;
+    color: white;
+}
