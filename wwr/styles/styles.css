@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+} */ 
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,10 +15,12 @@ nav a {
     text-align: center;
     color: #90E0EF;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
     text-align: center;
+    font-family: Shrikhand, Helvetica, sans-serif;
 }
 
 .button-box {
@@ -21,6 +31,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
     background-color: #90E0EF;
@@ -28,6 +42,14 @@ main section {
 
 body {
     background-color: #90E0EF;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -43,6 +65,10 @@ nav a:hover {
     background-color: #03045E;
     color: #90E0EF;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -52,15 +78,21 @@ nav a:hover {
 
 .msg {
     background-color: #0077B6;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 footer {
     background-color: #0077B6;
     color: #00B4D8;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: #03045E;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -73,6 +105,8 @@ h4 {
 
 .msg p {
     color: #03045E;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer a {
@@ -90,6 +124,7 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
@@ -102,4 +137,20 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.river-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid black;
 }
