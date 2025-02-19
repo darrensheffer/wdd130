@@ -21,7 +21,6 @@ div {
 
 img#desk {
     width: 25%;
-    padding: 10px;
     border-radius: 100%;
     border: 10px solid #454443;
     margin: 10px;
@@ -29,7 +28,6 @@ img#desk {
 
 img#design {
     width: 25%;
-    padding: 10px;
     border-radius: 100%;
     border: 10px solid #454443;
     margin: 10px;
@@ -37,7 +35,6 @@ img#design {
 
 img#person {
     width: 25%;
-    padding: 10px;
     border-radius: 100%;
     border: 10px solid #454443;
     margin: 10px;
