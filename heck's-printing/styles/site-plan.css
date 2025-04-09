@@ -5,10 +5,10 @@ Fonts are separated by a | */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #A2D2FF;
-  --secondary-color:  #BDE0FE;
-  --accent1-color: #FFAFCC;
-  --accent2-color: #FFC8DD;
+  --primary-color: #03045e;
+  --secondary-color: #0077b6;
+  --accent1-color: #90e0ef;
+  --accent2-color: #caf0f8;
 
   /* change the values below to your chosen font(s) */
   --heading-font: "Shrikhand", Helvetica, sans-serif;
@@ -19,11 +19,11 @@ Fonts are separated by a | */
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #A2D2FF  ;
+  --paragraph-background-color: #0077b6;
   --nav-link-color: white;
-  --nav-background-color: #A2D2FF;
+  --nav-background-color: #0077b6;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #FFAFCC;
+  --nav-hover-background-color: #03045e;
 }
 
 
